@@ -1,0 +1,20 @@
+.modal-body{
+    overflow: hidden;
+}
+#colorBox>div{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin:8px 6px ;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+
+}
+#colorBox>div>div{
+    color: red;
+    display: none;
+}
+#colorBox>div:hover>div{
+    display: block;
+}
